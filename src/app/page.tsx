@@ -31,7 +31,7 @@ export default function LandingPage() {
                   Discover Your Cosmic Path
                 </h1>
                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
-                  Unlock the secrets of the stars and numbers. Get personalized insights into your life's journey.
+                  Unlock the secrets of the stars and numbers. Get personalized insights into your life&apos;s journey.
                 </p>
               </div>
               <div className="space-x-4">
@@ -57,7 +57,7 @@ export default function LandingPage() {
               <div className="flex flex-col items-center text-center">
                 <Sun className="h-12 w-12 mb-4 text-primary" />
                 <h3 className="text-xl font-bold mb-2">Numerology Analysis</h3>
-                <p className="text-gray-500 dark:text-gray-400">Discover the hidden meanings in your life's numbers.</p>
+                <p className="text-gray-500 dark:text-gray-400">Discover the hidden meanings in your life&apos;s numbers.</p>
               </div>
               <div className="flex flex-col items-center text-center">
                 <Sparkles className="h-12 w-12 mb-4 text-primary" />

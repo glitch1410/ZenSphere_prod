@@ -1,21 +1,12 @@
 'use client'
 
-import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { Button } from "@/components/ui/button"
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"
-import { Star, Sun, Moon, Hash } from 'lucide-react'
+import { Star, Sun } from 'lucide-react'
 import KundaliChart from '@/components/KundaliChart'
 import { useChartContext } from '@/context/ChartContext'
 import { useRouter } from 'next/navigation'
-
-interface UserData {
-  name: string
-  birthdate: string
-  birthtime: string
-  birthplace: string
-  readingType: string
-}
 
 export default function InsightsPage() {
   const { userData, chartData, analysisData } = useChartContext()
@@ -25,7 +16,6 @@ export default function InsightsPage() {
     router.push('/form')
     return null
   }
-
 
   return (
 	<div className="flex flex-col min-h-screen">

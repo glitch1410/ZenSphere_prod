@@ -20,7 +20,7 @@ export default function FormPage() {
     latitude: '',
     longitude: ''
   })
-  const [suggestions, setSuggestions] = useState([])
+  const [suggestions, setSuggestions] = useState<Array<{ properties: { formatted: string; lat: string; lon: string; place_id: string } }>>([])
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState('');
   const router = useRouter()
@@ -128,7 +128,7 @@ const handlePlaceSelect = (place: {
             <Input id="birthplace" name="birthplace" value={formData.birthplace} onChange={handleAutocomplete} required />
             {suggestions.length > 0 && (
               <ul className="border border-gray-300 mt-2 rounded-md">
-                {suggestions.map((suggestion: any) => (
+                {suggestions.map((suggestion) => (
                   <li
                     key={suggestion.properties.place_id}
                     className="p-2 cursor-pointer hover:bg-gray-200"
