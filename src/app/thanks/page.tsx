@@ -13,7 +13,8 @@ export default function ThankYouPage() {
       </header>
       <main className="flex-1 container max-w-2xl mx-auto px-4 py-8 flex flex-col items-center justify-center text-center">
         <h1 className="text-3xl font-bold mb-4">Thank You!</h1>
-        <p className="mb-8">We've received your information and will prepare your personalized reading. Please check your email for further instructions.</p>
+        <p className="mb-8">We&apos;ve received your information and will prepare your personalized reading. Please check your email for further instructions.</p>
+        <p>Thank you for your submission! We&apos;ll get back to you soon.</p>
         <Link href="/">
           <Button>Return to Home</Button>
         </Link>
