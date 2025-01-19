@@ -18,12 +18,12 @@ export default function LandingPage() {
           <Link className="text-sm font-medium hover:underline underline-offset-4" href="#testimonials">
             Testimonials
           </Link>
-          <Link className="text-sm font-medium hover:underline underline-offset-4" href="/form">
-            Get Reading
+          <Link className="text-sm font-medium hover:underline underline-offset-4" href="#Team">
+            Our Team
           </Link>
         </nav>
       </header>
-      <main className="flex-1">
+      <main className="flex-1 bg-cover bg-center min-h-screen" style={{ backgroundImage: "url('https://cdn.discordapp.com/attachments/1323574400213192707/1330359770070388886/background-edit.png?ex=678db196&is=678c6016&hm=466069cbf12d7160fa0f43abf8de78926a08c9973176f11eb6c863a140b6bb37&')" }}>
         <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center space-y-4 text-center">
