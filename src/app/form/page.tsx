@@ -31,14 +31,20 @@ export default function FormPage() {
     setFormData(prevState => ({ ...prevState, [name]: value }))
   }
 
-  const handlePlaceSelect = (place: any) => {
-    setFormData(prevState => ({
-      ...prevState,
-      birthplace: place.properties.formatted,
-      latitude: place.properties.lat,
-      longitude: place.properties.lon
-    }))
-    setSuggestions([])
+const handlePlaceSelect = (place: {
+	properties: {
+		formatted: string;
+		lat: string;
+		lon: string;
+	}
+}) => {
+	setFormData(prevState => ({
+		...prevState,
+		birthplace: place.properties.formatted,
+		latitude: place.properties.lat,
+		longitude: place.properties.lon
+	}))
+	setSuggestions([])
   }
 
   const handleAutocomplete = (e: React.ChangeEvent<HTMLInputElement>) => {
