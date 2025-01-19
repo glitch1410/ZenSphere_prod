@@ -101,19 +101,19 @@ export default function LandingPage() {
                 <p className="mb-4 text-gray-500 dark:text-gray-400">&quot;Passionate about creating intuitive and dynamic user experiences.&quot;</p>
               </div>
               <div className="flex flex-col items-center text-center">
-                <Image src="https://media.licdn.com/dms/image/v2/D5603AQFQIGSEgMB1mQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1731182250556?e=1741824000&v=beta&t=NjKiDcuDU-EXFq2SJ0O5ObKsOpjj449H3vHzOuhopIk" alt="Profile Picture" className="h-24 w-24 rounded-full mb-4" width={96} height={96} />
+                <Image src="https://media.licdn.com/dms/image/v2/D5603AQFQIGSEgMB1mQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1731182250556?e=1743033600&v=beta&t=hWqAzUQim-uhsrD1wIKrEGwrUa6Zqxsftz1WRenPhJE" alt="Profile Picture" className="h-24 w-24 rounded-full mb-4" width={96} height={96} />
                 <p className="font-bold">Shreya Watane</p>
                 <p className="font-bold">Cybersecurity Enthusiast and Developer</p>
                 <p className="mb-4 text-gray-500 dark:text-gray-400">&quot;Dedicated to securing systems and developing robust cybersecurity solutions.&quot;</p>
               </div>
               <div className="flex flex-col items-center text-center">
-                <Image src="https://media.licdn.com/dms/image/v2/C4E03AQEpaXO7hvUCSg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1646743604214?e=1741824000&v=beta&t=5ZQIQNH2ca74eaphxF_i2xuQOTo_d6U1Uh8omLXTL5A" alt="Profile Picture" className="h-24 w-24 rounded-full mb-4" width={96} height={96} />
+                <Image src="https://media.licdn.com/dms/image/v2/C4E03AQEpaXO7hvUCSg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1646743604214?e=1743033600&v=beta&t=m3iIL9AExEFKNm0qXnTqIrYmIyv9rDqb6N2jiP3d4RI" alt="Profile Picture" className="h-24 w-24 rounded-full mb-4" width={96} height={96} />
                 <p className="font-bold">Rahmat ali Shaikh</p>
                 <p className="font-bold">Cybersecurity Enthusiast and Developer</p>
                 <p className="mb-4 text-gray-500 dark:text-gray-400">&quot;Focused on cybersecurity and developing secure applications.&quot;</p>
               </div>
               <div className="flex flex-col items-center text-center">
-                <Image src="https://media.licdn.com/dms/image/v2/D5603AQEVr38cnTbNYQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1693517283615?e=1741824000&v=beta&t=XSTMB3_6sx-lsUeePGs6Q3B2Bf1u1TWhfx7y3pMXZ_s" alt="Profile Picture" className="h-24 w-24 rounded-full mb-4" width={96} height={96} />
+                <Image src="https://media.licdn.com/dms/image/v2/D5603AQEVr38cnTbNYQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1693517283615?e=1743033600&v=beta&t=8v6AMUSbYlrLV69nVk_63xarNVdonebfEBA7x9yf3O0" alt="Profile Picture" className="h-24 w-24 rounded-full mb-4" width={96} height={96} />
                 <p className="font-bold">Prathamesh Yandolli</p>
                 <p className="font-bold">Developer</p>
                 <p className="mb-4 text-gray-500 dark:text-gray-400">&quot;Enthusiastic developer with a knack for problem-solving and innovation.&quot;</p>
