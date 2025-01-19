@@ -8,8 +8,23 @@ import KundaliChart from '@/components/KundaliChart'
 import { useChartContext } from '@/context/ChartContext'
 import { useRouter } from 'next/navigation'
 
+interface UserData {
+  name: string;
+  // Add other user data fields you're using
+}
+
+interface ChartData {
+  positions: Array<{ house: number; sign: number }>;
+  // Add other chart data fields you're using
+}
+
+interface AnalysisData {
+  primary_analysis: string;
+  secondary_analysis: string;
+}
+
 export default function InsightsPage() {
-  const { userData, chartData, analysisData } = useChartContext()
+  const { userData, chartData, analysisData } = useChartContext() as { userData: UserData | null; chartData: ChartData | null; analysisData: AnalysisData | null }
   const router = useRouter()
 
   if (!userData || !chartData) {
