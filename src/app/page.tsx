@@ -31,7 +31,7 @@ export default function LandingPage() {
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
                   Discover Your Cosmic Path
                 </h1>
-                <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
+                <p className="mx-auto max-w-[700px] text-yellow-500 md:text-xl dark:text-gray-400">
                   Unlock the secrets of the stars and numbers. Get personalized insights into your life&apos;s journey.
                 </p>
               </div>
@@ -53,17 +53,17 @@ export default function LandingPage() {
               <div className="flex flex-col items-center text-center">
                 <Moon className="h-12 w-12 mb-4 text-primary" />
                 <h3 className="text-xl font-bold mb-2">Astrology Readings</h3>
-                <p className="text-gray-500 dark:text-gray-400">Gain insights from the positions of celestial bodies.</p>
+                <p className="text-yellow-500 dark:text-gray-400">Gain insights from the positions of celestial bodies.</p>
               </div>
               <div className="flex flex-col items-center text-center">
                 <Sun className="h-12 w-12 mb-4 text-primary" />
                 <h3 className="text-xl font-bold mb-2">Numerology Analysis</h3>
-                <p className="text-gray-500 dark:text-gray-400">Discover the hidden meanings in your life&apos;s numbers.</p>
+                <p className="text-yellow-500 dark:text-gray-400">Discover the hidden meanings in your life&apos;s numbers.</p>
               </div>
               <div className="flex flex-col items-center text-center">
                 <Sparkles className="h-12 w-12 mb-4 text-primary" />
                 <h3 className="text-xl font-bold mb-2">Personalized Reports</h3>
-                <p className="text-gray-500 dark:text-gray-400">Receive detailed reports tailored to your unique profile.</p>
+                <p className="text-yellow-500 dark:text-gray-400">Receive detailed reports tailored to your unique profile.</p>
               </div>
             </div>
           </div>
@@ -73,15 +73,15 @@ export default function LandingPage() {
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-8">What Our Clients Say</h2>
             <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3">
               <div className="flex flex-col items-center text-center">
-                <p className="mb-4 text-gray-500 dark:text-gray-400">&quot;The insights I received were incredibly accurate and helpful!&quot;</p>
+                <p className="mb-4 text-yellow-500 dark:text-gray-400">&quot;The insights I received were incredibly accurate and helpful!&quot;</p>
                 <p className="font-bold">- Sarah J.</p>
               </div>
               <div className="flex flex-col items-center text-center">
-                <p className="mb-4 text-gray-500 dark:text-gray-400">&quot;I was skeptical at first, but my reading was spot on. Highly recommend!&quot;</p>
+                <p className="mb-4 text-yellow-500 dark:text-gray-400">&quot;I was skeptical at first, but my reading was spot on. Highly recommend!&quot;</p>
                 <p className="font-bold">- Michael T.</p>
               </div>
               <div className="flex flex-col items-center text-center">
-                <p className="mb-4 text-gray-500 dark:text-gray-400">&quot;The numerology analysis gave me a new perspective on my life path.&quot;</p>
+                <p className="mb-4 text-yellow-500 dark:text-gray-400">&quot;The numerology analysis gave me a new perspective on my life path.&quot;</p>
                 <p className="font-bold">- Emma L.</p>
               </div>
             </div>
