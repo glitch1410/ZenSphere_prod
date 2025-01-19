@@ -95,7 +95,7 @@ export default function LandingPage() {
             </p>
             <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-4">
               <div className="flex flex-col items-center text-center">
-                <Image src="https://media.licdn.com/dms/image/v2/D4D03AQG_9Bjv45GZbA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1731152153375?e=1741824000&v=beta&t=Q01o57JRLtg5Pj-Vxs7IoUK_ja2NDpbeKv1OVIF4LM4" alt="Profile Picture" className="h-24 w-24 rounded-full mb-4" width={96} height={96} />
+                <Image src="https://media.licdn.com/dms/image/v2/D4D03AQG_9Bjv45GZbA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1731152153375?e=1743033600&v=beta&t=2bVsXe0d4AO3QcBZMLKzr6Xec6_DtF2uZXZ0QtWIJo0" alt="Profile Picture" className="h-24 w-24 rounded-full mb-4" width={96} height={96} />
                 <p className="font-bold">Pratap Parui</p>
                 <p className="font-bold">Consultant | Frontend Developer</p>
                 <p className="mb-4 text-gray-500 dark:text-gray-400">&quot;Passionate about creating intuitive and dynamic user experiences.&quot;</p>
